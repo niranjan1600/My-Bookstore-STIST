@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(120deg, #ba68ed, #172144);
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ header, footer {
+   background: #333;
+   color: white;
+   padding: 1em;
+   text-align: center;
+ }
+ nav a {
+   color:   #000000(197, 21, 209);
+   margin:  1em;
+   text-decoration: lab(from black l a b);
+ }  
+ #book-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 2em;
+ }
+ .book {
+   border: 1px solid #000000;
+   margin: 1em;
+   padding: 1em;
+   width: 200px;
+   text-align: center;
+ }  
+
+ .login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 2em;
+  border: 1px solid #fffaff;
+  border-radius: 8px;
+  text-align: center;
+}
+.login-container input {
+  width: 90%;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+.login-container button {
+  padding: 0.5em 1em;
+}

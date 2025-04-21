@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Online Bookstore</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Books</a>
+      <a href="#">Cart</a>
+      <a href="login.html">Logout</a> 
+    </nav>
+    
+
+  </header>
+
+
+  
+  <main>
+    <section id="book-list">
+     
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Bookstore</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script>
+    if (!localStorage.getItem("isLoggedIn")) {
+      window.location.href = "login.html";
+    }
+  </script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js">
+  </script>
+
+  
+</body>
+</html>
